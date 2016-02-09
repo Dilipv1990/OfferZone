@@ -35,4 +35,9 @@ angular.module('offerApp')
               templateUrl: 'views/form.html',
               controller: 'dynamicFormController as vm'
         })
+        .state('location',{
+          url:'/location',
+          templateUrl:'views/locationSyd.html',
+          controller:'locationCtrl as vm'
+        })
 });
